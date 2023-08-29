@@ -10,8 +10,8 @@ public class task3 {
         String string3 = string1 + string2;
         //Concatenation
 
-        string3.toUpperCase();
+        string3.toLowerCase();
         //All letters to UPPER CASE
-
+        System.out.println(string3);
     }
 }
