@@ -1,10 +1,12 @@
 package part_1_syntax;
 
+// =========================================================================
+// 1. Use variables of different types (int, double, char, boolean, String).
+// =========================================================================
+
 public class task1 {
     public static void main(String[] args)
     {
-        // 1. Use variables of different types (int, double, char, boolean, String).
-
         byte aNewByte = 101;
         // Declaration of a byte variable called "aNewByte" with a value of 101
 
@@ -19,6 +21,9 @@ public class task1 {
 
         float aNewFloat = 1.2345f;
         // Declaration of a float variable called "aNewFloat" with a value of 1.2345. Used 'f' in the end since Java requires it.
+
+        double aNewDouble = 1.2233445566778899;
+        // Declaration of a double variable called "aNewDouble" with a value of 1.2233445566778899.
 
         boolean aNewBoolean = true;
         // Declaration of a boolean variable called "aNewBoolean" with a "true" value.
