@@ -20,6 +20,7 @@ public class dialog {
         System.out.println("What year have you been born in?");
         short year;
         year = keyboard.nextShort();
+        keyboard.nextLine();
         //4
         System.out.println("What city do you live in?");
         String city;
@@ -29,7 +30,7 @@ public class dialog {
         String subject;
         subject = keyboard.nextLine();
 
-        System.out.println("So you are " + name + " " + surname + ", born in " + age + " and live in a wonderful city of " + city + ". And it seems you enjoy" + subject + " too!");
+        System.out.println("So you are " + name + " " + surname + ", born in " + year + " and live in a wonderful city of " + city + ". And it seems you enjoy " + subject + " too!");
 
     }
 }
