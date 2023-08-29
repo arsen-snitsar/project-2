@@ -6,6 +6,7 @@ package part_1_syntax;
 
 public class task6 {
     public static void main(String[] args) {
-
+        int age = 40;
+        age = 42;
     }
 }
